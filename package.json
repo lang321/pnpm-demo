@@ -16,8 +16,10 @@
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^15.0.1",
     "@rollup/plugin-typescript": "^11.0.0",
+    "@types/node": "^18.11.18",
     "father-build": "^1.22.5",
     "rollup": "^3.9.1",
+    "ts-node": "*",
     "typescript": "^4.9.4"
   }
 }

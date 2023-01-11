@@ -1,3 +1,3 @@
-export const isObject = function (obj: any): boolean {
+export const isObject = function (obj: object): boolean {
   return true;
 };
