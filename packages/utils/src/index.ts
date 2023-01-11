@@ -1,0 +1,2 @@
+
+export {isObject} from "./object";

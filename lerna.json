@@ -1,0 +1,25 @@
+{
+  "lerna": "4.0.0",
+  "version": "1.0.10",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "packages": [
+    "packages/*",
+  ],
+  "command": {
+    "bootstrap": {
+      "npmClientArgs": [
+        "--no-package-lock"
+      ]
+    },
+    "version": {
+      "allowBranch": [
+        "master",
+        "main",
+        "release/*",
+        "daily/*",
+        "refactor/*"
+      ]
+    }
+  }
+}
